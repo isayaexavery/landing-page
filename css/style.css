@@ -1,0 +1,549 @@
+/* Body 
+------------------------------------- */
+* {  
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none ;
+}
+
+li{
+    list-style: none;
+}
+h1{
+    color: #444;
+}
+
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+html {
+  font-size: 100%;
+}
+
+
+.navbar-custom{
+    background: none;
+    margin-top: 30px;
+}
+
+.navbar-light .navbar-brand {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+.navbar-nav a {
+	font-size: 20px;
+	font-weight: 400;
+    line-height: 20px;
+}
+
+.navbar-nav a:hover {
+    opacity: 0.5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 12px;
+	background-color: #FFCE31;
+    border-radius: 10px;
+   
+}
+
+.navbar-light .navbar-nav .active a {
+    color: black; 
+}
+
+
+.heading{
+    background-image: url('../img/storage-in-an-industrial-building-for-rental-to-en-2022-01-20-01-51-31-utc.jpg');
+    background-size: cover;
+
+}
+
+.hero-section {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h5{
+    width: 600px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 75px;
+    text-align: center;
+	letter-spacing: 2px;
+	margin-top: 50px;
+    color: #ffffff;
+}
+
+.hero-section p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+ .feature-section, .listing-section {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.carousel-indicators {
+    margin-top: 50px;
+    position: relative;
+    
+}
+.carousel-indicators .item-1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #021850;
+}
+
+.carousel-indicators .item-2 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #021850;
+}
+
+.carousel-indicators .item-3 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #021850;
+}
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.featured .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.featured .card .img, .active-listing .card .img, .active-learn .card .img{
+    width: 100%;
+
+}
+
+.featured .card .storage-details{
+    width: 100%;
+    align-items:flex-end;
+
+}
+
+.featured .card h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+	margin-top: 10px;
+}
+
+.featured .card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+	margin-top: 20px;
+}
+
+
+.active-listing{
+    background-image: url('../img/listing-image.jpg');
+}
+
+.active-listing .card,  .active-learn .card{
+    margin-top: 20px;
+}
+.active-listing .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.active-listing .section-header {
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+    
+}
+.more-details{
+    margin: 10px;
+    color: #ffffff;
+    background: #021850;
+    border-radius: 6px;
+    padding: 8px 40px;
+}
+
+.view-more-details{
+    margin: 10px;
+    background:#FFCE31;
+    color: #000;
+    border-radius: 6px;
+    padding: 8px 40px;
+
+}
+
+
+/* Sell Storage */
+.sell-storage{
+    background-color: #E8EFFF;
+    z-index: 0;
+}
+
+.sell-storage .section-header h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: #021850;
+}
+
+.sell-storage .section-header p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+	margin: 10px 0px 30px;
+    word-spacing: 3px;
+}
+.person-1 {
+      position: relative;
+      top: 0;
+      left: 0;
+}
+.container-images {
+      position: absolute;
+      top: 60px;
+      margin-top: 180px;
+      margin-right: 750px;
+      width: 550px;
+}
+
+/* End of Sell Storage */
+
+/* buy storage */
+.buy-storage{
+    z-index: 10;
+    margin-top: 40px;
+}
+
+.buy-storage .section-header h1 {  
+   
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: #021850;;
+}
+
+.buy-storage .section-header p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+	margin: 10px 0px 30px;
+    word-spacing: 3px 
+}
+
+/* end of buy storage */
+
+/*active-listing*/
+.active-learn{
+    background-image: url('../img/learn.png');
+    margin-top: -40px;
+    position: relative;
+    z-index: 100;
+}
+
+.active-learn .section-header {
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+    
+}
+
+/*queries*/
+.queries{
+    background-image: url('../img/queries.png');
+    position: relative;
+    margin-bottom: 100px;
+    z-index: 100;
+    background-color: rgba(150,150,250,0.5);
+}
+
+.queries .section-header {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    padding: 5%;
+    border-radius: 5px;
+    
+}
+
+.queries .section-header h5{
+    color: #021850;
+    text-align: center;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    padding: 5%;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+/* footer */
+.footer-logo{
+    color: #021850;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    word-spacing: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+/*Dashboard style*/
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid #999;
+
+}
+
+table{
+    padding: 10px;
+}
+
+th, td{
+    text-align: left; 
+    padding: 8px;
+}
+
+.side-menu{
+    position: fixed;
+    background: #021850;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .brand-name{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-text{
+    color: white;
+}
+
+.side-menu li {
+    font-size: 22px;
+    padding:10px 40px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li:hover {
+    font-size: 22px;
+    padding:10px 40px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-top {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: f1f1f1;
+
+}
+
+.dashboard-top .header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 10vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.dashboard-top .header .nav{
+width: 90%;
+display: flex;
+align-items: center;
+}
+
+.dashboard-top .header .nav .search{
+    flex: 3;
+     display: flex;
+}
+
+.dashboard-top .header .nav .search input[type=text]{
+border: none;
+background: #f1f1f1;
+padding: 10px;
+width: 50%;
+}
+
+
+.dashboard-top .header .nav .user{
+flex: 1;
+} 
+
+.btn {
+    margin-top: 20px;
+}
+.btn:hover{
+    color: #444;
+    background: white;
+    /* padding: 0.1px 10px; */
+}
+
+.container .content-1{
+  
+    background: white;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .content-1 .card{
+  margin: 5px;
+}
+
+.container .content-2{
+    flex: 2;
+    background: white;
+    min-height: 50vh;
+    margin: 10px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .content-2 .recent-storage{
+    flex: 5;
+    background: white;
+    margin: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content-2 .recent-storage h5{
+font-size: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+   
+}
+
+@media screen and (max-width) {
+    .side-menu li {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .active-listing .section-header {
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .active-learn{
+        margin-top: 50px;
+    }
+    .active-learn, h1, p{
+        padding-left: 20px;
+    }
+    .add-storage{
+        display: none;
+    }
+    .side-menu li span{
+         display: none;
+    }
+    .side-menu{
+        align-items: center;
+    }
+
+    .brand-name{
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .brand-text{
+        display: none;
+       
+    }
+
+    .container .content-2 .recent-storage table th:nth-child(1),
+    .container .content-2 .recent-storage table td:nth-child(1){
+        display: none;
+    }
+
+    .hero-section h5{
+        width: 400px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        color: #ffffff;
+    }
+    
+    .hero-section p {
+        font-size: 15px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
